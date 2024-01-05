@@ -1,0 +1,27 @@
+@import url();
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2b2b2b;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header input {
+    margin: 10px;
+    align-items: center;
+    width: 20%;
+    height: 30px;
+    border: 1px #8a8a8a solid;
+    background-color: #2b2b2b;
+    color: white;
+    padding: 12px;
+
+}
