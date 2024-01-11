@@ -7,5 +7,9 @@ export function Search() {
 		setSearchFilm(event.target.value);
 	};
 
-	return <input type="text" placeholder="Search..." value={searchFilm} onChange={handleSearchChange} />;
+	return (
+		<div className="search">
+			<input type="text" placeholder="Search..." value={searchFilm} onChange={handleSearchChange} />
+		</div>
+	);
 }
