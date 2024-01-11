@@ -1,0 +1,7 @@
+#content {
+    width: calc(80% - 44px);
+    overflow: auto;
+    height: calc(100vh - 44px);
+    padding: 22px;
+    color: white;
+}
