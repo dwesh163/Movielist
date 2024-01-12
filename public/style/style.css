@@ -7,13 +7,22 @@
 }
 
 body {
-    background-image: url(../Shot.png);
-    height: 100vh;
-    background-size: 105%;
+    background-color: #101010;
+
 }
 
 #root {
     display: flex;
     height: 100%;
     width: 100%;
+}
+
+h3 {
+    color: #9A9A9A;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+    letter-spacing: 0.08125rem;
+    text-transform: uppercase;
 }

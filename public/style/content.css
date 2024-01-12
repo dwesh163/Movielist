@@ -1,9 +1,10 @@
 #content {
-    width: calc(80% - 44px);
     overflow: auto;
     height: calc(100vh - 44px);
+    position: absolute;
+    width: calc(80% - 2em);
+    right: 0;
     padding: 22px;
     color: white;
-    background-color: #131313;
-
+    background-color: #101010;
 }

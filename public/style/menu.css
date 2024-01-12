@@ -1,7 +1,7 @@
 #menu {
     background-color: #0b0b0b;
     width: 14.5%;
-    height: 100vh;
+    height: calc(100vh - 2em);
     padding: 1em 1.2em 1em 1.4em;
     position: absolute;
 }
@@ -57,7 +57,7 @@
 }
 
 .logo .fa-film {
-    margin-top: 3%;
+    margin-top: 2.5%;
     margin-right: 5px;
     font-size: 26px;
 }
@@ -75,7 +75,10 @@
 }
 
 #menu hr {
-    margin-top: 22px;
+    margin-top: 32px;
+    border: 0;
+    height: 1px;
+    background: #333;
 }
 
 #page .page {
@@ -83,6 +86,7 @@
     margin: 3px 0;
     border-radius: 8px;
     width: calc(100% - 22px);
+    cursor: pointer;
 }
 
 #page .text {
