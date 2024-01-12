@@ -9,7 +9,10 @@ export function Search() {
 
 	return (
 		<div className="search">
-			<input type="text" placeholder="Search..." value={searchFilm} onChange={handleSearchChange} />
+			<span className="icon">
+				<i className="fa fa-search"></i>
+			</span>
+			<input type="text" id="searchInput" placeholder="Search..." value={searchFilm} onChange={handleSearchChange} />
 		</div>
 	);
 }
