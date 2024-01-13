@@ -5,7 +5,6 @@ let list = {
 	'43758394573945798': {
 		name: 'A voir',
 		description: 'lorem balalalalal lda asdl sad asd ef wf wefssdf sdf gre',
-		background: ['#b3b3b3', 'fas fa-list'],
 	},
 	'437583234573945798': {
 		name: 'Tout',
@@ -20,12 +19,20 @@ let list = {
 };
 
 for (const id in list) {
-	let color = list[id].background[0];
-	let size = list[id].background[2];
+	let color, size, icon;
+
+	if (list[id].background) {
+		color = list[id].background[0];
+		size = list[id].background[2];
+		icon = list[id]['background'][1];
+	} else {
+		color = '#F33F3F';
+		icon = 'fas fa-list';
+	}
 	elementList.push(
-		<div key={id} className="listElement">
+		<div key={id} className="listElement" onClick={() => console.log(list[id]['name'])}>
 			<div className="listLogo" style={{ backgroundColor: color, fontSize: size }}>
-				<i className={list[id]['background'][1]}></i>
+				<i className={icon}></i>
 			</div>
 			<p>{list[id]['name']}</p>
 		</div>
