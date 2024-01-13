@@ -1,8 +1,8 @@
 #menu {
     background-color: #0b0b0b;
     width: 14.5%;
-    height: calc(100vh - 2em);
-    padding: 1em 1.2em 1em 1.4em;
+    height: calc(100vh - 4em);
+    padding: 2em;
     position: absolute;
 }
 
@@ -67,7 +67,7 @@
 }
 
 #page * {
-    color: white;
+    color: #f2f2f2;
 }
 
 #page {
@@ -95,4 +95,41 @@
 
 #page .active {
     background-color: #282828;
+}
+
+#list h3 {
+    margin-top: 28px;
+    margin-bottom: 22px;
+}
+
+#list {
+    margin: 22px 0px;
+
+}
+
+.listBox * {
+    color: #f2f2f2;
+}
+
+.listBox {
+    margin: 0px;
+}
+
+.listElement {
+    display: flex;
+    align-items: center;
+    margin: 12px 0px;
+}
+
+.listLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.listElement p {
+    margin-left: 12px;
 }

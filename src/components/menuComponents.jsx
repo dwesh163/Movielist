@@ -1,6 +1,7 @@
 import React from 'react';
 import { Search } from './menu/Search.jsx';
 import { Page } from './menu/Page.jsx';
+import { List } from './menu/List.jsx';
 
 export function Menu() {
 	return (
@@ -13,6 +14,7 @@ export function Menu() {
 			<Search />
 			<Page />
 			<hr />
+			<List />
 		</section>
 	);
 }
